@@ -27,7 +27,7 @@ function createWindow () {
 function createShortcuts() {
     globalShortcut.register('CommandOrControl+F12', recreateWindow)
     globalShortcut.register('CommandOrControl+F11', minimazeWindow)
-    globalShortcut.register('CommandOrControl+-', clearWindow)
+    globalShortcut.register('CommandOrControl+C', clearWindow)
 }
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
